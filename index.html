@@ -2,74 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Clase5</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>CREAR CUENTA</h1>
-    <fieldset>
-        <legend>
-            Informaci&oacute;n personal
-        </legend>
-        <form action="/clase3/" method="POST">
-            <table>
-                <tr>
-                    <td>
-                        <label>Nombre*</label><br>
-                        <input type="text" name="Nombre" placeholder="Gustavo">
-                    </td>
-                    <td>
-                        <label>Apellido*</label><br>
-                        <input type="text" name="Apellido" placeholder="Spada">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <lavel>Correo Electr&oacute;nico</lavel><br>
-                        <input type="text" name="email" placeholder="gustavo@gmail.com">
-                    </td>
-                </tr>
-                <tr>
-                    <td><br>
-                        <label>N° de DNI</label>
-                        <input type="text" name="DNI" placeholder="99999999">
-                    </td>
-                    <td><br>
-                        <label>Edad</label> 
-                        <input type="number" min="18" max="40">
-                    </td>
-                <tr>
-                    <td>
-                        <label>Tiene Hijos</label> 
-                        <input type="checkbox" name="th" value="SI">
-                    </td>    
-                </tr>    
-                <tr>
-                    <td>
-                        <label>Cuantos</label>
-                        <select>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="mas">3 o mas</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><br>
-                        <label>Está Casado?</label>
-                        <input type="radio" name="casado" value="SI" checked>
-                        <span>SI</span>
-                        <input type="radio" name="casado" value="NO">
-                        <span>NO</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td><br>
-                        <input type="submit" value="ENVIAR">
-                    </td>
-                </tr>
-            </table>
-            
-        </form>
-    </fieldset>
+    <main>
+        <section>
+            <h1>Clase 6</h1>
+            <fieldset>
+                <legend>
+                    Alta de Usuario
+                </legend>
+                <form action="Altausuario.html">
+                    <input type="file" name="dni-frente">
+
+                    <input type="url" name="url" required><br><br>
+                    <input type="text" name="algo" required>
+                    <br><br>
+                    
+                    <hr>
+                    <h3>Cual escuderia es la mejor?</h3>
+                            <select name="Selecmulti" multiple required>
+                                <optgroup label="escuderias">
+                                    <option>Ferrari</option>
+                                    <option>Mercedes</option>
+                                    <option>McClaren</option>
+                                    <option>Red Bulls</option>
+                                    <option>Alpha Tauri</option>
+                                </optgroup><br>
+                            </select>                     
+                        <h4>Justifique</h4>
+                        <textarea name="algo" cols="100" rows="6" required></textarea>
+                    <input type="submit" value="Enviar">
+            </form>
+        </fieldset>
+        </section>
+    </main>
 </body>
 </html>
