@@ -14,6 +14,33 @@
                 </legend>
                 <form action="Altausuario.html">
                     <input type="file" name="dni-frente">
+
+                    <input type="url" name="url" required><br><br>
+                    <input type="text" name="algo" required>
+                    <br><br>
+                    
+                    <hr>
+                    <h3>Cual escuderia es la mejor?</h3>
+                            <select name="Selecmulti" multiple required>
+                                <optgroup label="escuderias">
+                                    <option>Ferrari</option>
+                                    <option>Mercedes</option>
+                                    <option>McClaren</option>
+                                    <option>Red Bulls</option>
+                                    <option>Alpha Tauri</option>
+                                </optgroup><br>
+                            </select>                     
+                            <br><br>
+                            <input list="escuderia">
+                            <datalist id="escuderia" name="dataescu">
+                                <option>Ferrari</option>
+                                <option>Mercedes</option>
+                                <option>McClaren</option>
+                                <option>Red Bulls</option>
+                                <option>Alpha Tauri</option>
+                            </datalist>
+                        <h4>Justifique</h4>
+                        <textarea name="algo" cols="100" rows="6" required></textarea>
                     <input type="submit" value="Enviar">
             </form>
         </fieldset>
