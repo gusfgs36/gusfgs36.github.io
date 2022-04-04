@@ -1,20 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Roboto:ital,wght@0,300;1,300&family=Send+Flowers&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 header{
-    background-color: rgb(157, 126, 187);
+    background-color: rgb(136, 76, 196);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-decoration-style: solid;
+    
 }
 body{
-    background-color: rgb(138, 138, 175);
+    /*background-color: rgb(138, 138, 175);*/
 }
 .link {
     list-style: circle;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
+    text-decoration-style: solid;
 }
 h1{
     font-size: 60px;
     font-family: 'Roboto', sans-serif;
+    text-decoration-style: double;
     
 }
 h2{
@@ -23,14 +31,24 @@ h2{
 
 a{
     font-size: 30px;
-    font-family: 'BIZ UDGothic', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 p{
-    font-family: 'Send Flowers', cursive;
-    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
     text-align: justify;
 }
 
 ul{
     color: brown;
+    text-decoration-color: rgb(157, 189, 15);
+}
+h3{
+    text-shadow: 1px 2px royalblue;
+}
+section table{
+    border: 3px solid pink;
+}
+section table td{
+    border: 3px solid blanchedalmond;
 }
