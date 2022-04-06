@@ -1,8 +1,13 @@
 *{
     margin: 0px;
 }
-p{
-    margin: 30px;
+div{
+    margin: 20px;
+    /* margin-top: 20px; */
+    /* margin-left: 15px; */
     border: 3px solid red;
-    padding: 25px;
+    padding: 23px;
+    width: 400px;
+    display: inline-block;
+    box-sizing: border-box;
 }
