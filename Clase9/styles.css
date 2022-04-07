@@ -12,7 +12,8 @@ div{
     box-sizing: border-box;
 }
 .perro{
-    margin: 50px;
-
+    top: 23px;
+    left: 100px;
+    position: fixed;
     height: 150px;
 }
