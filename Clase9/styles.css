@@ -11,3 +11,8 @@ div{
     display: inline-block;
     box-sizing: border-box;
 }
+.perro{
+    margin: 50px;
+
+    height: 250px;
+}
