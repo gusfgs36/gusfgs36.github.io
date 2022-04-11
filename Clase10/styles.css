@@ -1,0 +1,24 @@
+* {
+    margin: 10px;
+}
+h1 {
+    color: yellow;
+}
+a:visited {
+    color:rgb(115, 255, 0);
+}
+a:hover {
+    color: violet;
+    font-size: 30px;
+}
+table {
+    border: 1px solid red;
+}
+
+/*rodrigo */
+table tr:nth-child(even) {
+    color:red
+}
+table tr:nth-child(odd) {
+    background-color:aqua
+}
